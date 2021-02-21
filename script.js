@@ -12,3 +12,4 @@ var YY=parseFloat(document.getElementById("yy").value);
 
 //calculate the century.
 var cc=(YY-1)/100+1;
+
