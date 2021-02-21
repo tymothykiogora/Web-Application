@@ -21,3 +21,23 @@ var dayOfWeek=Math.floor ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*MM+1/10)) + DD
 
 var theFemaleGender=document.getElementById("female");
 var theMaleGender=document.getElementById('male');
+
+//check if a radio button has been checked.
+if(theFemaleGender.checked)
+{
+//get value from radio button.
+var theFemaleValue = theFemaleGender.value;
+}
+else if (theMaleGender.checked)
+{
+//get value from radio button
+var theMaleValue = theMaleGender.value;
+}
+
+//check if the value return female or male then display the corresponding akan name.
+if(theFemaleValue==="female") {
+    document.getElementById("display").innerHTML="Your Akan Name is "+femaleNames[dayOfWeek];
+    
+    } else{
+    document.getElementById("display").innerHTML="Your Akan Name is "+maleNames[dayOfWeek];
+    }
