@@ -15,7 +15,7 @@
         <body>
 
             <div class="container">
-                <div class="jumbotron parent">
+                <div class="jumbotron">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="jumbotron p-0 left">
@@ -32,9 +32,11 @@
              
 
                 <!----->
-           <br> Want to find out what your akan name is.</br>
 
-              <br> <b>COMPLETE THE FOLLOWING TEST TO FIND OUT</b> <br>
+           <br> <b>Want to find out what your akan name is?</b></b></br>
+
+          
+           <br>
 
               </div>
               </div>
@@ -44,56 +46,134 @@
                 </div>
             </div>
 
-          
+            <div class.1="container">
+                <div class.1="row">
+                  <div class.1="jumbotron">   
+                                      
+            <form>
 
-            <fieldset>
-
-                <legend><h3>Fill in the form</h3></legend>
-
-                <div class="row">
-
-                    <div class="col-lg-3">
-
-                        <label>Date</label>
-
-                        <select id="dd" class="form-control form-control">
-
-                            <option>Choose...</option>
-                            <option>01</option>
-                            <option>02</option>
-                            <option>03</option>
-                            <option>04</option>
-                            <option>05</option>
-                            <option>06</option>
-                            <option>07</option>
-                            <option>08</option>
-                            <option>09</option>
-                            <option>10</option>
-                            <option>11</option>
-                            <option>12</option>
-                            <option>13</option>
-                            <option>14</option>
-                            <option>15</option>
-                            <option>16</option>
-                            <option>17</option>
-                            <option>18</option>
-                            <option>19</option>
-                            <option>20</option>
-                            <option>21</option>
-                            <option>22</option>
-                            <option>23</option>
-                            <option>24</option>
-                            <option>25</option>
-                            <option>26</option>
-                            <option>27</option>
-                            <option>28</option>
-                            <option>29</option>
-                            <option>30</option>
-                            <option>31</option>
-
-                        </select>
-
+                <fieldset>
+    
+                    <class><h3>FILL IN THE FORM TO FIND OUT</h3></class>
+    
+                        
+    
+                            <label>Date</label>
+    
+                            <select id="dd" class="form-control form-control">
+    
+                                <option>Choose...</option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+    
+                            </select>
+    
+                        </div>
+    
+                        <div class="col-lg-3">
+    
+                            <label>Month</label>
+    
+                            <select id="mm" class="form-control form-control">
+    
+                                <option>Choose...</option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+    
+                            </select>
+    
+                        </div>
+    
+                        <div class="col-lg-3">
+    
+                            <label>Year</label>
+    
+                            <input id="yy" type="text" class="form-control" placeholder="Year...">
+    
+                        </div>
+                        
                     </div>
+    
+                    <div class="form-group row">
+    
+                        <div class="col-sm-2">
+    
+                            <label>Gender<label>
+                
+                        </div>                
+    
+                        <div class="col-sm-10">
+    
+                           
+                    <form class="radio-button">
+                        <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                        <br>
+                        <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                      </form>
+    
+                        </div>
+    
+                    </div>
+    
+                    <div class="form-group row">
+    
+                        <div class="col-sm-10">
+    
+                        <button id="submit" type="button" class="btn btn-success" onclick="akanNames()">Submit</button>
+    
+                        </div>
+    
+                    </div>
+    
+                    <div id="display"></div>
+    
+                </fieldset>
+    
+            </form>
+    
+        </div>
+    </div>
+
+
             
         </body>
         </html>
