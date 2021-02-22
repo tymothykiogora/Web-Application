@@ -2,7 +2,7 @@ body {
     background-image: url("Ghana-Flag.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 1300px;
+    background-size: coverpx;
     }
 
     .a {
@@ -17,5 +17,9 @@ body {
       }
 
       .card2 {
-
+        background-color: palegreen;
+        font-family: 'Times New Roman', Times, serif;
+        position: right;
+        font-size: 20px;
+        font-style: italic;
       }
