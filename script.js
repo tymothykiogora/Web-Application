@@ -10,6 +10,7 @@ function akanNames (){
 var MM=parseFloat(document.getElementById("mm").value);
 var YY=parseFloat(document.getElementById("yy").value);
 
+
 //calculate the century.
 var cc=(YY-1)/100+1;
 
@@ -41,3 +42,5 @@ if(theFemaleValue==="female") {
     } else{
     document.getElementById("display").innerHTML="Your Akan Name is "+maleNames[dayOfWeek];
     }
+
+}
