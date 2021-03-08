@@ -1,32 +1,20 @@
-body {
-    background-image: url("Ghana-Flag.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: coverpx;
-    }
 
-    .a {
-        font-size: 15px;
-      }
 
-      .card1 {
-          background-color:palegreen ;
-          font-family: 'Times New Roman', Times, serif;
-          font-style: italic;
-          font-size: 20px;
-      }
-
-      .card2 {
-        background-color: rgb(219, 223, 22);
-        font-family: 'Times New Roman', Times, serif;
-        position: right;
-        font-size: 20px;
-        font-style: italic;
-      }
-
-      #display{
-        text-align:center;
-        font-size: 50px;
-    }
+    h3 {
+      color: mediumblue ;
+  }
+  ul li {
+      color: black;
+  }
+  .form {
+      color: cornsilk;
+  }
+  .form .paragraph{
+      font-size: 14px;
+  }
+  .form input{
+      margin-bottom: 10px;
+      color: black;
+  }
 
     
